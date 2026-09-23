@@ -1,0 +1,195 @@
+/* Configuración general */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* SELECTOR DE ELEMENTO */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    line-height: 1.6;
+}
+
+
+/* Encabezado */
+
+header {
+    background-color: #1d3557;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 38px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+
+/* Navegación */
+
+nav {
+    background-color: #14213d;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #90e0ef;
+}
+
+
+/* Contenido principal */
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+section {
+    margin: 40px 0;
+}
+
+h2 {
+    color: #1d3557;
+    border-bottom: 2px solid #457b9d;
+    padding-bottom: 8px;
+}
+
+
+/* SELECTOR DE ID */
+
+#inicio {
+    text-align: center;
+}
+
+
+/* SELECTORES DE CLASE */
+
+.imagen-principal {
+    width: 100%;
+    max-width: 650px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+
+/* MODELO DE CAJA */
+
+.tarjeta {
+    background-color: white;
+
+    /* Espacio interior */
+    padding: 20px;
+
+    /* Espacio exterior */
+    margin: 15px;
+
+    /* Borde */
+    border: 2px solid #ddd;
+
+    border-radius: 10px;
+}
+
+
+/* Otro selector de clase */
+
+.especial {
+    background-color: #eaf4f4;
+    border-color: #457b9d;
+}
+
+
+/* Contenedor flexible */
+
+.contenedor-tarjetas {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.contenedor-tarjetas .tarjeta {
+    flex: 1;
+}
+
+
+/* Caja de contacto */
+
+.caja-contacto {
+    background-color: white;
+    padding: 25px;
+    margin: 20px 0;
+    border: 2px solid #457b9d;
+    border-radius: 10px;
+}
+
+
+/* Botón */
+
+.boton {
+    display: inline-block;
+    background-color: #1d3557;
+    color: white;
+    text-decoration: none;
+
+    padding: 10px 20px;
+    margin-top: 10px;
+
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: #457b9d;
+}
+
+
+/* Pie de página */
+
+footer {
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+/* DISEÑO RESPONSIVO */
+
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .contenedor-tarjetas {
+        flex-direction: column;
+    }
+
+    main {
+        width: 95%;
+    }
+
+}
