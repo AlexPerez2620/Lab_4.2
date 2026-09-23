@@ -11,3 +11,5 @@ Se emplearon además varias propiedades de CSS para alterar elementos visuales c
 El modelo de caja CSS se aplica en el proyecto a través del uso de border, margin y padding.
 
 Por último, para posibilitar que la página se ajuste a distintos tamaños de pantalla, se utilizó un diseño responsivo mediante media queries.
+
+Enlace: https://github.com/AlexPerez2620/Lab_4.2
